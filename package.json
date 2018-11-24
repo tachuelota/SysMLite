@@ -1,0 +1,31 @@
+{
+  "name": "your_id.SysMLite",
+  "title": "SysMLite",
+  "description": "SysML Lite for StarUML.",
+  "homepage": "https://github.com/staruml/SysMLite",
+  "version": "0.1.0",
+  "keywords": [
+    "SysML",
+    "UML",
+    "Systems Modeling",
+    "ADL"
+  ],
+  "author": {
+    "name": "John R. Brewster",
+    "email": "John@BrewsterFamily.us",
+    "url": "https://github.com/RoostertailSoftware"
+  },
+  "license": "MIT",
+  "engines": {
+    "staruml": ">=3.0.0"
+  },
+  "dependencies": {
+    "grunt": "^1.0.3",
+    "grunt-cli": "^1.3.2"
+  },
+  "devDependencies": {
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-git-info": "0.0.1"
+  }
+}

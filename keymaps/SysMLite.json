@@ -1,0 +1,7 @@
+{
+    "cmdctrl-ctrl-s": "SysMLite:show-help",
+    
+    "cmdctrl-ctrl-b": "SysMLite:new-bdd",
+    "cmdctrl-ctrl-i": "SysMLite:new-ibdd",
+    "cmdctrl-ctrl-r": "SysMLite:new-req"
+}
