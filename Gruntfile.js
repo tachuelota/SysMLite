@@ -6,9 +6,10 @@ module.exports = function ( grunt ){
 	});
 
 
-	require( './gruntfiles/gitinfo.js' )( grunt );
 	require( './gruntfiles/contrib-clean.js')( grunt );
 	require( './gruntfiles/contrib-concat.js' )( grunt );
+	require( './gruntfiles/contrib-watch.js' )( grunt );
+	require( './gruntfiles/gitinfo.js' )( grunt );
 
 
 	grunt.registerTask( 'dev-deploy',	[ 'clean-dev', 'gitInfo' ]);
