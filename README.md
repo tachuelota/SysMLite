@@ -1,11 +1,13 @@
-# StarUML Extension for SysMLite
+# SysMLite
+StarUML Extension for SysML (lite)
 
 ## This extension allows users to create limited SysML Diagrams to include
 
+### First install
 * Block Definition Diagrams
 * Requirements Diagrams
 
-Future
+Future installs
 * Internal Block Definition Diagram
 * Requirements Matrix
 
