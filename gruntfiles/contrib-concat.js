@@ -12,8 +12,8 @@ module.exports = function( grunt ){
 			},
 			main: {
 				src: [
-					'app/main.js',
-					'app/src/**/*.js'
+					'app/src/**/*.js',
+					'app/main.js'
 				],
 				dest: 'deploy/main.js'
 			},
