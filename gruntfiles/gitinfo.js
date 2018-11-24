@@ -1,8 +1,10 @@
 module.exports = function( grunt ){
 
 	grunt.config.merge( {
-		gitinfo: {}
+		gitInfo: {
+			output: 'app/assets/gitinfo.json'
+		}
 	});
 
-	grunt.registerTask( 'gitInfo',	[ 'gitinfo' ] );
+	grunt.registerTask( 'git-info',	[ 'gitInfo' ] );
 }

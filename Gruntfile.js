@@ -12,6 +12,6 @@ module.exports = function ( grunt ){
 	require( './gruntfiles/gitinfo.js' )( grunt );
 
 
-	grunt.registerTask( 'dev-deploy',	[ 'clean-dev', 'gitInfo' ]);
+	grunt.registerTask( 'dev-deploy',	[ 'clean-dev', 'git-info' ]);
 	grunt.registerTask( 'default',		[ 'dev-deploy', 'contrib-watch'] );
 }
