@@ -7,7 +7,7 @@ StarUML Extension for SysML (lite)
 * Block Definition Diagrams
 * Requirements Diagrams
 
-Future installs
+### Future installs
 * Internal Block Definition Diagram
 * Requirements Matrix
 
