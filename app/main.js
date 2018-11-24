@@ -1,27 +1,12 @@
-
+/*
+ * main.js
+ * Main file that will register the different modules of my app.
+ *
+ */
+ 
 function handleShowMessage( /*String*/ message  ) {
 	window.alert( message );
 }
-
-function about( ){
-	handleShowMessage( "SysMLite v0.1.0\n" +
-	"By John R. Brewster\n" +
-	"jb259@gatech.edu" )
-}
-
-function addNewBDD(  ) {
-	handleShowMessage( "SysMLite BDD" );
-}
-
-function addNewIBDD(  ) {
-	handleShowMessage( "SysMLite IBDD" );
-}
-
-function addNewREQ(  ) {
-	handleShowMessage( "SysMLite REQ" );
-}
-
-
 
 
 function init() {
