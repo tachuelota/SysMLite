@@ -5,9 +5,11 @@ module.exports = function( grunt ){
 			options: {
 				'force': true
 			},
-			src: [ '/Users/john/Library/Application Support/StarUML/extensions/user/SysMLite/*' ]
+			src: [ '/Users/john/Library/Application Support/StarUML/extensions/user/SysMLite/*',
+		 		   'deploy/*'
+			]
 		}
-	});
+	} );
 
 	grunt.registerTask( 'clean-dev',	[ 'clean' ] );
 }
