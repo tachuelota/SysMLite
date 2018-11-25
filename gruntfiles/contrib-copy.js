@@ -19,7 +19,7 @@ module.exports = function( grunt ){
 					'toolbox/*',
 					'LICENSE',
 					'README.md',
-					'assets/versions.js'
+					'assets/version.js'
 				],
 				dest: 'build'
 			},
