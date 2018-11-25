@@ -12,6 +12,7 @@ module.exports = function( grunt ){
 			},
 			main: {
 				src: [
+					'app/assets/version.js',
 					'app/src/*.js',
 					'app/src/common.js',
 					'app/main.js'
