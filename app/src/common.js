@@ -5,5 +5,5 @@
  */
 
 function handleShowMessage( /*String*/ message  ) {
-	window.alert( message );
+	app.dialogs.showInfoDialog( message );
 }
