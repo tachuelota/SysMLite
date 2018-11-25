@@ -2,14 +2,24 @@ module.exports = function( grunt ){
 
 	grunt.config.merge( {
 		clean: {
-			options: {
-				'force': true
+			dev: {
+				options: {
+					'force': true
+				},
+				src: [ '/Users/john/Library/Application Support/StarUML/extensions/user/SysMLite/*',
+			 		   'build/*'
+				]
 			},
-			src: [ '/Users/john/Library/Application Support/StarUML/extensions/user/SysMLite/*',
-		 		   'deploy/*'
-			]
+			prod: {
+				options: {
+					'force': true
+				},
+				src: [ 'deploy/*' ]
+			}
+
 		}
 	} );
 
-	grunt.registerTask( 'clean-dev',	[ 'clean' ] );
+	grunt.registerTask( 'clean-dev',	[ 'clean:dev' ] );
+	grunt.registerTask( 'clean-prod',	[ 'clean:prod' ] );
 }
