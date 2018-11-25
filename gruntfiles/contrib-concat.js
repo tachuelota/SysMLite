@@ -8,11 +8,12 @@ module.exports = function( grunt ){
 					'line': false
 				},
 				process: false,
-				separator: '\n /* ---------- */\n\n'
+				separator: '\n'
 			},
 			main: {
 				src: [
-					'app/src/**/*.js',
+					'app/src/*.js',
+					'app/src/common.js',
 					'app/main.js'
 				],
 				dest: 'deploy/main.js'
