@@ -24,7 +24,7 @@ module.exports = function( grunt ){
 				prereleaseIdentifier: dts
 			},
 			dev: {
-				src: [ 'app/assets/versions.js', 'package.json']
+				src: [ 'app/assets/version.js', 'package.json']
 			}
 		}
 	} );

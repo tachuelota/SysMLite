@@ -15,10 +15,8 @@ module.exports = function( grunt ){
 					'keymaps/*',
 					'menus/*',
 					'preferences/*',
-					'stylesheets/*',
-					'toolbox/*',
 					'LICENSE',
-					'assets/versions.js'
+					'README.md'
 				],
 				dest: 'build'
 			},
