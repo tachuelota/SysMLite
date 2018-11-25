@@ -1,9 +1,0 @@
-{
-  "branch": "master",
-  "commit": "bc7468263b8928e8d4ef20accdaa4b1157203f91",
-  "short": "bc74682",
-  "timestamp": "2018-11-24 19:22:08 -0500",
-  "author": "--get",
-  "message": "Removed some bothersome comment lines added, added common.js to the penultimate end.",
-  "status": " M .gitignore M Gruntfile.js M app/src/BDD.js M gruntfiles/contrib-clean.js M gruntfiles/contrib-concat.js M gruntfiles/contrib-copy.js M package-lock.json M package.json?? app/LICENSE?? app/assets/?? app/preferences/?? deploy/?? gruntfiles/version.js"
-}
