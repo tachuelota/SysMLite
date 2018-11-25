@@ -14,8 +14,24 @@ module.exports = function ( grunt ){
 	require( './gruntfiles/version.js' )( grunt );
 
 
+	/*
+	 * For development:
+	 * 1. Update the Version minor
+	 * 2. Run `For deveopment` See below
+	 * 3. clean out the production space `SysMLite/deploy
+	 * 5. Copy the deploy directory into working directory see below
+	 */
 
 	grunt.registerTask( 'production',	[ 'version-deploy', 'dev-deploy', 'clean-prod', 'copy-prod'] );
+
+	/*
+	 * For development:
+	 * 1. clear files from dev space `SysMLite/build`
+	 * 2. Pull the git info
+	 * 3. create the main.js from all the correct files into build directory
+	 * 4. Move all files and directories needed into build directory
+	 * 5. Copy the build directory into working directory `~/Library/Application Support/StarUML/extensions/user/SysMLite/`
+	 */
 
 	grunt.registerTask( 'dev-deploy',	[ 'clean-dev', 'git-info', 'concat-js', 'copy-dev' ]);
 	grunt.registerTask( 'default',		[ 'dev-deploy', 'contrib-watch'] );
