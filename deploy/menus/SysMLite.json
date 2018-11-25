@@ -1,0 +1,41 @@
+{
+	"menu": [
+		{
+			"label": "SysMLite",
+			"id": "sysmlite",
+			"submenu": [
+				{
+					"label": "About SysMLite",
+					"id": "sysmlite.about",
+					"command": "SysMLite:show-help"
+				},
+				{ "type": "separator" },
+				{
+				"label": "SysML Diagrams",
+				"id": "sysmlite.diagrams",
+				"submenu": [
+
+					{
+						"label": "Block Defination Diagram",
+						"id": "diagrams.bdd",
+						"command": "SysMLite:new-bdd"
+					},
+					{
+						"label": "Internal Block Defination Diagram",
+						"id": "diagrams.ibdd",
+						"command": "SysMLite:new-ibdd"
+					},
+					{
+						"type": "separator"
+					},
+					{
+						"label": "Requirements Diagram",
+						"id": "diagrams.req",
+						"command": "SysMLite:new-req"
+					}
+
+				]
+			}]
+		}
+	]
+}
