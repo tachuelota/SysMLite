@@ -1,7 +1,4 @@
-
-app/assets/gitinfo.json
-app/assets/versions.js
-
-
 node_modules
 build
+
+app/assets
