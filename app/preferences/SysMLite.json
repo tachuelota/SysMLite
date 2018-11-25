@@ -1,0 +1,22 @@
+{
+	"id": "sysMLite",
+	"name": "SysMLite",
+	"schema": {
+		"sysMLite.gen": {
+			"text": "SysML something",
+			"type": "section"
+		},
+		"sysMLite.gen.useTab": {
+			"text": "Use Tab",
+			"description": "Use Tab for indentation instead of spaces.",
+			"type": "check",
+			"default": false
+		},
+		"sysMLite.gen.indentSpaces": {
+			"text": "Indent Spaces",
+			"description": "Number of spaces for indentation.",
+			"type": "number",
+			"default": 4
+		}
+	}
+}
