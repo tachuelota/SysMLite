@@ -18,6 +18,7 @@ module.exports = function( grunt ){
 					'stylesheets/*',
 					'toolbox/*',
 					'LICENSE',
+					'README.md',
 					'assets/versions.js'
 				],
 				dest: 'build'
