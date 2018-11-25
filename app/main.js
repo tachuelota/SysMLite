@@ -3,10 +3,6 @@
  * Main file that will register the different modules of my app.
  *
  */
- 
-function handleShowMessage( /*String*/ message  ) {
-	window.alert( message );
-}
 
 
 function init() {
