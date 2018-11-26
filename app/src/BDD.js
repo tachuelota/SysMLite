@@ -7,6 +7,8 @@
 
 class SysMLiteBDD {
 	constructor() {
+		this.d = new Diagram();
+
 		this.project = app.repository.select( "@Project" )[ 0 ];
 		this.model = app.factory.createModel( { id: "UMLModel", parent: this.project } );
 	};
